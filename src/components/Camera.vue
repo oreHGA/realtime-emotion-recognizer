@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="">
       <video autoplay playsinline muted id="webcam" width="250" height="250"></video>
   </div>
 </template>
@@ -9,9 +9,6 @@ import {Webcam} from '../assets/webcam'
 
 export default {
   name: "Camera",
-  props: {
-    // msg: String
-  },
   data: function(){
       return {
           webcam: null,

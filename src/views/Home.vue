@@ -48,8 +48,6 @@ export default {
           class: null,
           detected_e: null,
           mode: 'train',
-          pusher_obj: null,
-          e_channel: null,
       }
   },
   mounted: function(){
