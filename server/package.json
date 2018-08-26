@@ -1,0 +1,19 @@
+{
+  "name": "feedback-server",
+  "version": "1.0.0",
+  "description": "Triggers push events when formdata is received on a url",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "author": "Oreoluwa Ogundipe",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.1.1",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "pusher": "^2.1.3"
+  }
+}
