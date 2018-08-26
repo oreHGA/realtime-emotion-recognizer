@@ -1,21 +1,35 @@
-# frontend_app
+# Realtime Emotion Recognition Application with Pusher + Tensorflow.js + Vue
+
+![demo](./demo.gif)
 
 ## Project setup
+
 ```
-npm install
+yarn add
 ```
 
-### Compiles and hot-reloads for development
+### Run frontend application
+
 ```
-npm run serve
+yarn serve
 ```
 
-### Compiles and minifies for production
+## Run the backend server
+
 ```
-npm run build
+cd server
+yarn add
+yarn start
+```
+
+### Compiles and minifies frontend for production
+
+```
+yarn build
 ```
 
 ### Lints and fixes files
+
 ```
-npm run lint
+yarn lint
 ```
