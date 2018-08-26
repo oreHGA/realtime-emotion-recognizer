@@ -12,8 +12,6 @@
     "@tensorflow-models/mobilenet": "^0.2.2",
     "@tensorflow/tfjs": "^0.12.5",
     "axios": "^0.18.0",
-    "chartjs": "^0.3.24",
-    "d3": "^5.7.0",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },
