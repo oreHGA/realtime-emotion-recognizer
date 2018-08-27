@@ -36,7 +36,7 @@ import * as knnClassifier from '@tensorflow-models/knn-classifier';
 import axios from 'axios';
 
 export default {
-  name: "home",
+  name: "Home",
   components: {
     Camera
   },

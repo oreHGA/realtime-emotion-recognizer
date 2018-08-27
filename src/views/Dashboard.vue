@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: "dashboard",
+  name: "Dashboard",
   data: function(){
     return {
       emotions: {
@@ -23,7 +23,6 @@ export default {
       },
       pusher_obj: null,
       e_channel: null,
-      chartarea: null
     }
   },
   mounted: function(){
@@ -31,7 +30,6 @@ export default {
   },
   methods: {
     init (){
-      this.chartarea = document.getElementById('piechart');
       // create a new pusher object
       this.pusher_obj = new Pusher('PUSHER_APPKEY',{
           cluster: 'eu',
