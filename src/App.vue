@@ -1,10 +1,6 @@
 <template>
   <div id="app">
     <img alt="Pusher logo" src="./assets/pusher.jpg" height="100px">
-    <div id="nav">
-      <router-link to="/">Test / Train</router-link> |
-      <router-link to="/dashboard">Dashboard</router-link>
-    </div>
     <router-view/>
   </div>
 </template>

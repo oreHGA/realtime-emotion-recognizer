@@ -22,14 +22,6 @@ yarn add
 yarn start
 ```
 
-### Compiles and minifies frontend for production
+## Testing
 
-```
-yarn build
-```
-
-### Lints and fixes files
-
-```
-yarn lint
-```
+Have a browser tab open on `http://localhost:8080/` and another tab open on `http://localhost:8080/dashboard` to see your results in realtime
