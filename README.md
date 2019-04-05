@@ -13,10 +13,10 @@ Link to [Tutorial](https://pusher.com/tutorials/emotion-recognition-tensorflow)
 
 ## Getting Started
 
-### Install the node modueles
+### Install the node modules
 
 ```
-yarn add
+yarn install
 ```
 
 ### Run frontend application
@@ -29,7 +29,7 @@ yarn serve
 
 ```
 cd server
-yarn add
+yarn install
 yarn start
 ```
 
